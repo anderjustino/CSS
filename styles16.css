@@ -1,0 +1,125 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 177px 42px; 
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+
+.button-header {
+    background: #6FBF44;
+    border: 1px solid #4cb538; 
+    border-radius: 6px;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+.logo-image {
+   width: 595.18px;
+   height: 500px; 
+}
+
+.logo-image {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+  
+}
+
+a {
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+h1 {
+    width: 582px;
+    height: 164px;
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    letter-spacing: 0.596154px;
+    color: #161a49;
+
+}
+
+p {
+    width: 493px;
+    height: 99px;
+    margin-top: 47px;
+    margin-bottom: 55px;
+    margin-right: 146px;
+}
+
+@media screen and (max-width: 780px) {
+        .logo-image {
+        width: 85%;
+        height: auto;
+        display: block;
+        position: absolute;
+        margin: 490px 39px 22px 39px;
+    }
+
+    header {
+        display: none;
+    }
+
+    section {
+        display: block;
+        margin: 124px 60px 0 60px;
+    }
+
+    h1 {
+        Width:278px;
+        Height:60px;
+        font-Weight: 700;
+        font-Size: 30px;
+        Line-height: 30px;
+        text-align: center;
+    }
+
+    p {
+        width: 280px;
+        height: 165px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        text-align: justify;
+    }
+    
+    a {
+        width: 112px;
+        height: 27px;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
